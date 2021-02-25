@@ -1,4 +1,4 @@
-😍Link-https://soumya-debug.github.io/ to my portfolio website.
+😍Link-https://soumya-debug.github.io/soumya-debug/ to my portfolio website.
 //Create a simple HTML page by (!+Enter).
 //Install Live Server extension.
 //Create styel.css and link it with index.html.
