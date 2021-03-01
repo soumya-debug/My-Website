@@ -87,7 +87,7 @@ p {
 }
 @keyframes colorChangeSoumya1 {
   0% {
-    color: rgb(17, 17, 194);
+    color: yellow;
   }
   100% {
     color: rgb(255, 0, 0);
