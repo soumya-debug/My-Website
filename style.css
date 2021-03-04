@@ -99,9 +99,10 @@ p {
 }
 .cta {
   display: inline-block;
+  position: absolute;
   padding: 10px 30px;
-  color: black;
-  background-color: transparent;
+  color: white;
+  background-color: black;
   border: 2px solid crimson;
   font-size: 2rem;
   text-transform: uppercase;
@@ -135,7 +136,7 @@ p {
 #header .header {
   min-height: 8vh;
   background-color: rgba(31, 30, 30, 0.24);
-  transition: 0.3s ease background-color;
+  transition: 0.5s ease background-color;
 }
 #header .nav-bar {
   display: flex;
@@ -233,14 +234,14 @@ p {
   width: 100%;
   left: 0;
   background-color: white;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
   transition-property: top, bottom;
 }
 #header .hamburger .bar::after {
-  top: 8px;
+  top: 0px;
 }
 #header .hamburger .bar::before {
-  bottom: 8px;
+  bottom: 0px;
 }
 #header .hamburger.active .bar::before {
   bottom: 0;
