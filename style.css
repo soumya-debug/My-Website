@@ -90,8 +90,11 @@ p {
   0% {
     color: yellow;
   }
+  50% {
+    color: rgb(197, 197, 0);
+  }
   100% {
-    color: rgb(255, 0, 0);
+    color: red;
   }
 }
 .cta {
@@ -339,7 +342,7 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/pexels-aarti-vijay-2693529.jpg);
+  background-image: url(./img/pexels-mateusz-dach-450035.jpg);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
