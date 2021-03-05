@@ -7,7 +7,7 @@
 html {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(3, 2, 2);
+  background-color: rgb(39, 34, 34);
   scroll-behavior: smooth;
 }
 a {
@@ -102,7 +102,7 @@ p {
   position: absolute;
   padding: 10px 30px;
   color: white;
-  background-color: black;
+  background-color: transparent;
   border: 2px solid crimson;
   font-size: 2rem;
   text-transform: uppercase;
@@ -113,7 +113,7 @@ p {
 }
 .cta:hover {
   color: white;
-  background-color: dimgray;
+  background-color: black;
 }
 .brand h1 {
   font-size: 3rem;
@@ -122,6 +122,38 @@ p {
 }
 .brand h1 span {
   color: crimson;
+}
+#myBtn {
+  background-color: transparent;
+  border: 2px solid crimson;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+#myBtn:hover {
+  color: white;
+  background-color: black;
+}
+#myBtn2 {
+  background-color: transparent;
+  border: 2px solid crimson;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+#myBtn2:hover {
+  color: white;
+  background-color: black;
 }
 
 /* Header section */
@@ -357,8 +389,8 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, rgb(56, 8, 8) 0%, black 100%);
-  opacity: 0.7;
+  background-image: linear-gradient(60deg, green 0%, black 100%);
+  opacity: 0.6;
   z-index: -1;
 }
 #credentials .credential-bottom .icon {
