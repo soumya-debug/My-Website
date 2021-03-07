@@ -150,7 +150,7 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 2px 1px;
+  margin: 3px 3px;
   cursor: pointer;
 }
 #myBtn:hover {
