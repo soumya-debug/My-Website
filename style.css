@@ -515,95 +515,53 @@ p {
 
 /* Additional section */
 
-.slideshow-container {
+#additionals .additionals {
+  flex-direction: column;
   max-width: 1200px;
-  position: relative;
+  margin: 0 auto;
+  padding: 100px 0;
 }
-.mySlides {
-  display: none;
+#additionals .additionals-header h1 {
+  margin-bottom: 50px;
 }
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+#additionals .all-additionals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+#additionals .additional-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
 }
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.text {
+#additionals .additional-info {
+  padding: 30px;
   flex-basis: 50%;
   height: 100%;
+  display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  font-size: 20px;
-  bottom: 0.1px;
-  top: 50px;
-  padding: 100px 150px;
-  position: absolute;
-  text-align: center;
-  color: yellow;
+  background-image: linear-gradient(60deg, rgb(41, 0, 0) 50%, orange 500%);
+  color: rgb(226, 226, 7);
 }
-.numbertext {
-  color: red;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+#additionals .additional-info h1 {
+  font-size: 4rem;
+  font-weight: 500;
 }
-.text-decoration {
+#additionals .additional-info h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#additionals .additional-info p {
   color: white;
-}
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 50px 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
 }
 /* End Additional section */
 
