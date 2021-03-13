@@ -430,6 +430,9 @@ p {
   margin: 0 auto;
   padding: 100px 0;
 }
+#projects .projects-header {
+  margin-top: -50px;
+}
 #projects .projects-header h1 {
   margin-bottom: 50px;
 }
@@ -623,6 +626,9 @@ p {
   margin: 0 auto;
   padding: 100px 20px;
 }
+#about .section-title {
+  margin-top: -50px;
+}
 #about .col-left {
   width: 250px;
   height: 360px;
@@ -662,6 +668,9 @@ p {
   margin: 0 auto;
   margin-bottom: -3%;
   margin-top: -12%;
+}
+#contact .section-title {
+  margin-top: -80px;
 }
 #contact .contact-items {
   width: 400px;
@@ -711,6 +720,7 @@ p {
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 10px;
+  margin-top: -150px;
 }
 #footer h2 {
   color: white;
